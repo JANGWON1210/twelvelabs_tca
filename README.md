@@ -13,5 +13,13 @@
 23.1.15 : Wrote Code corresponding to Task 1 + Implementing Example Data Upload Download to MongoDB (About 6 hours)
   - Wrote main.py, get_top_30.py, download_upload.py
   - Adding comments on each files
+  + As a first-time user of MongoDB, I uploaded sample data and practiced various features to gain hands-on experience.
 
-23.1.16 : 
+23.1.16 : Wrote Code corresponding to Task 2 + Error Correction (About 6 hours, Most of the time was dedicated to error correction.)
+  - Wrote size_check.py, moniter.py
+  - Found error during Multiprocessing process, I fixed the code.
+  - After conducting several trials for validation, I identified several errors and subsequently modified the code.
+  - Ex) I found an error; if there is an age restriction and access requires logging in, download_upload.py will return False.
+  - Consequently, I refined the relevant code and added one more key in the logging process.
+  - Ex) I encountered an error during the download and upload of videos to the S3 bucket due to the video name. I refined the code to set a proper name.
+  - Moreover, I discovered that a video is not uploaded on AWS if a video with the same name already exists, even if it is not a same video. Therefore, I added some random characters behind the video name.
