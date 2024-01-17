@@ -11,7 +11,8 @@
   - General introductory materials on various database services, exploration of information regarding the strengths and weaknesses of MongoDB and similar services. Preliminary research on the prerequisite knowledge for using MongoDB.
 
 23.1.15 : Wrote Code corresponding to Task 1 + Implementing Example Data Upload Download to MongoDB (About 7 hours)
-  - Wrote main.py, get_top_30.py, download_upload.py
+  - Wrote main.py, get_top_30.py, download_upload.py (About 5 hours)
+  - Validate my code using simple example. (About an hour)
   - Adding comments on each files
   + As a first-time user of MongoDB, I uploaded sample data and practiced various features to gain hands-on experience.
 
