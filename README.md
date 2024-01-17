@@ -10,13 +10,14 @@
   - Create AWS account for AWS S3 bucket usage and explore on the uploading process in Python.
   - General introductory materials on various database services, exploration of information regarding the strengths and weaknesses of MongoDB and similar services. Preliminary research on the prerequisite knowledge for using MongoDB.
 
-23.1.15 : Wrote Code corresponding to Task 1 + Implementing Example Data Upload Download to MongoDB (About 6 hours)
+23.1.15 : Wrote Code corresponding to Task 1 + Implementing Example Data Upload Download to MongoDB (About 7 hours)
   - Wrote main.py, get_top_30.py, download_upload.py
   - Adding comments on each files
   + As a first-time user of MongoDB, I uploaded sample data and practiced various features to gain hands-on experience.
 
-23.1.16 : Wrote Code corresponding to Task 2 + Error Correction (About 6 hours, Most of the time was dedicated to error correction.)
+23.1.16 : Wrote Code corresponding to Task 2 + Error Correction (About 5 hours, Most of the time was dedicated to error correction.)
   - Wrote size_check.py, moniter.py
+  - Adding comments on each files
   - Found error during Multiprocessing process, I fixed the code.
   - After conducting several trials for validation, I identified several errors and subsequently modified the code.
   - Ex) I found an error; if there is an age restriction and access requires logging in, download_upload.py will return False.
